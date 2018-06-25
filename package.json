@@ -1,0 +1,22 @@
+{
+  "name": "spotify-status",
+  "main": "./lib/spotify-status",
+  "version": "0.0.1",
+  "description": "Spotify status wrapper for Atom",
+  "keywords": [],
+  "repository": "https://github.com/itotallyrock/spotify-status",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "spotify.status": {
+      "versions": {
+        "1.0.0": "provideService"
+      }
+    }
+  },
+  "dependencies": {
+    "spotify-web-helper": "github:s-h-a-d-o-w/spotify-web-helper"
+  }
+}
