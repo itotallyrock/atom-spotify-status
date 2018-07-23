@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Spotify status wrapper utilizing dbus for Atom",
   "keywords": [],
-  "repository": "https://github.com/itotallyrock/spotify-status",
+  "repository": "https://github.com/itotallyrock/atom-spotify-status-dbus",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -12,7 +12,7 @@
   "providedServices": {
     "spotify-status": {
       "versions": {
-        "0.0.1": "provideService"
+        "0.1.0": "provideService"
       }
     }
   },
