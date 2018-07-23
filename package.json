@@ -1,8 +1,8 @@
 {
-  "name": "spotify-status",
-  "main": "./lib/spotify-status",
-  "version": "0.0.1",
-  "description": "Spotify status wrapper for Atom",
+  "name": "spotify-status-dbus",
+  "main": "./lib/spotify-status-dbus",
+  "version": "0.1.0",
+  "description": "Spotify status wrapper utilizing dbus for Atom",
   "keywords": [],
   "repository": "https://github.com/itotallyrock/spotify-status",
   "license": "MIT",
@@ -10,13 +10,15 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "providedServices": {
-    "spotify.status": {
+    "spotify-status": {
       "versions": {
-        "1.0.0": "provideService"
+        "0.0.1": "provideService"
       }
     }
   },
   "dependencies": {
-    "spotify-web-helper": "github:s-h-a-d-o-w/spotify-web-helper"
+    "dbus": "^1.0.3",
+    "lodash": "^4.17.10",
+    "util.promisify": "^1.0.0"
   }
 }
