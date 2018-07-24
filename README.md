@@ -44,5 +44,6 @@ consumeService(player) {
 
   await player.play() // Will unpause if paused
   await player.pause() // Will pause if playing
+  await player.togglePause() // Will toggle pause
 }
 ```
