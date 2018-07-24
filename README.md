@@ -17,6 +17,15 @@ consumeService(player) {
   player.on('ready', () => {
     // Called when Spotify is re-opened
   })
+  player.on('pause', () => {
+    // Called when paused
+  })
+  player.on('unpause', () => {
+    // Called when unpaused
+  })
+  player.on('toggle-pause', playing => {
+    // Called when pause state changes, true is passed if unpaused
+  })
 
   let song = await player.getCurrentSong()
   /*
