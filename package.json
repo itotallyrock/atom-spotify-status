@@ -1,13 +1,13 @@
 {
   "name": "spotify-status-dbus",
   "main": "./lib/spotify-status-dbus",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Spotify status wrapper utilizing dbus for Atom",
   "keywords": [],
   "repository": "https://github.com/itotallyrock/atom-spotify-status-dbus",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.28.0 <2.0.0"
   },
   "providedServices": {
     "spotify-status": {
@@ -18,7 +18,6 @@
   },
   "dependencies": {
     "dbus": "^1.0.3",
-    "lodash": "^4.17.10",
-    "util.promisify": "^1.0.0"
+    "lodash.isequal": "^4.5.0"
   }
 }
